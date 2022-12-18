@@ -1,0 +1,6 @@
+.place__text-item {
+  margin: 0 0 24px;
+}
+.places__text-item:last-of-type {
+  margin: 0;
+}

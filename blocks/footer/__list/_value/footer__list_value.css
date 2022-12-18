@@ -1,0 +1,6 @@
+.footer__list_value {
+  margin-right: 18px;
+}
+.footer__list_value:last-of-type {
+  margin-right: 0;
+}

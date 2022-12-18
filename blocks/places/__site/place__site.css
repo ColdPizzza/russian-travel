@@ -1,0 +1,10 @@
+.place__site {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .place__site {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.place__site-url {
+  display: block;
+  margin: 0 0 12px;
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
