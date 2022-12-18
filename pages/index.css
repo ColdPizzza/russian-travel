@@ -12,7 +12,7 @@
 @import url(../blocks/header-langs/__items/header-langs__items.css);
 @import url(../blocks/header-langs/__ru/header-langs__ru.css);
 @import url(../blocks/header-langs/__en/header-langs__en.css);
-@import url(../blocks/header-langs/__ru/_active/header-langs__ru-active.css);
+@import url(../blocks/header-langs/__ru/_active/header-langs__ru_active.css);
 @import url(../blocks/header-langs/__en/_active/header-langs__en_active.css);
 
 /* Блок lead */
