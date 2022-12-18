@@ -1,6 +1,6 @@
-.footer__list_value {
+.footer__list-value {
   margin-right: 18px;
 }
-.footer__list_value:last-of-type {
+.footer__list-value:last-of-type {
   margin-right: 0;
 }
