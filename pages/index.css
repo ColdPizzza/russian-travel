@@ -3,7 +3,7 @@
 
 /* Модификатор центрирования */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_center/page_center.css);
+@import url(../blocks/page/_center/page__center.css);
 
 /* Шапка сайта */
 @import url(../blocks/header/header.css);
