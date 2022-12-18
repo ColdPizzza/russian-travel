@@ -1,10 +1,10 @@
-.header-lang__ru-active {
+.header-langs__ru-active {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
 }
-.header-lang__ru-active:hover {
+.header-langs__ru-active:hover {
   background-size: 100% 2px;
 }
