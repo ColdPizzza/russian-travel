@@ -4,3 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 380px) {
+  .cover {
+    min-height: 200px;
+  }
+}

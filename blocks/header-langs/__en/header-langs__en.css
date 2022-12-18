@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 380px) {
   .header-langs__en {
     font-size: 18px;
   }

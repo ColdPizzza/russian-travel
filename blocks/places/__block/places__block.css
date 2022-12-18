@@ -1,4 +1,4 @@
-.place__block {
+.places__block {
   display: grid;
   grid-template-columns: minmax(460px, 1fr) 1fr;
   grid-template-rows: minmax(min-content, max-content) 1fr;
@@ -6,26 +6,26 @@
   row-gap: 48px;
   margin-bottom: 80px;
 }
-.place__block:last-of-type {
+.places__block:last-of-type {
   margin: 0;
   padding-bottom: 92px;
 }
 @media screen and (max-width: 1280px) {
-  .place__block {
-    column-gap: 32px;
+  .places__block {
     margin-bottom: 85px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .place__block {
+  .places__block {
     column-gap: 28px;
     row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__block {
+  .places__block {
     grid-template-columns: 100%;
     row-gap: 32px;
     margin-bottom: 50px;

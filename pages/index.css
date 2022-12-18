@@ -36,14 +36,14 @@
 
 /* Блок places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__site/place__site.css);
-@import url(../blocks/places/__site-url/place__site-url.css);
-@import url(../blocks/places/__title/place__title.css);
-@import url(../blocks/places/__text/place__text.css);
-@import url(../blocks/places/__text-item/place__text-item.css);
-@import url(../blocks/places/__img/place__img.css);
-@import url(../blocks/places/__link/place__link.css);
-@import url(../blocks/places/__block/place__block.css);
+@import url(../blocks/places/__site/places__site.css);
+@import url(../blocks/places/__site-url/places__site-url.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__text-item/places__text-item.css);
+@import url(../blocks/places/__img/places__img.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__block/places__block.css);
 
 /* Блок cover */
 @import url(../blocks/cover/cover.css);
