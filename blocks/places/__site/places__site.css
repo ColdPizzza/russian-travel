@@ -3,11 +3,11 @@
   padding: 0;
   align-self: flex-end;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places__site {
-    display: none;
+    padding-top: 73px;
   }
-} */
+}
 @media screen and (max-width: 380px) {
   .places__site {
     padding-left: 16px;
