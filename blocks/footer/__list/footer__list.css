@@ -10,3 +10,8 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 380px) {
+  .footer__list {
+    margin-bottom: 14px;
+  }
+}

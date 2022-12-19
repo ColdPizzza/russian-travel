@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 380px) {
   .places__text-item {
-    padding: 0 16px;
+    padding: 24px 0 0 0;
+    margin: 0 auto;
   }
 
   .places__text-item:last-of-type {
