@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 84px 48px 0 84px;
+  padding: 0 48px;
+  margin-top: 84px;
+  /* Не совсем понимаю, что вы имели в виду под исправлением, т.к. расстояние было тем же 84px, но в padding */
 }
 @media screen and (max-width: 1279px) {
   .lead {
-    padding-top: 48px;
+    margin-top: 48px;
     padding-left: 48px;
   }
 }
@@ -27,6 +29,6 @@
 
 @media screen and (max-width: 380px) {
   .lead {
-    padding-top: 48px;
+    margin-top: 48px;
   }
 }
