@@ -6,7 +6,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .page {
     padding: 0 0 24px 0;
   }

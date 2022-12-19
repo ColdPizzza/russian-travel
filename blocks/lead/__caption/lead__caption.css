@@ -10,13 +10,13 @@
   text-transform: uppercase;
   align-self: flex-start;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     padding: 0 24px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     padding: 0 16px 0;
   }
