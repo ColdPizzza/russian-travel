@@ -1,22 +1,21 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/Inter/inter.css);
+@import url(../vendor/fonts/Inter/fonts.css);
 
 /* Модификатор центрирования */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/page__center.css);
+@import url(../blocks/page/__center/page__center.css);
 
 /* Шапка сайта */
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/header-langs/header-langs.css);
-@import url(../blocks/header-langs/__items/header-langs__items.css);
-@import url(../blocks/header-langs/__ru/header-langs__ru.css);
-@import url(../blocks/header-langs/__en/header-langs__en.css);
-@import url(../blocks/header-langs/__ru/_active/header-langs__ru_active.css);
-@import url(../blocks/header-langs/__en/_active/header-langs__en_active.css);
+@import url(../blocks/header/__items/header__items.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
+@import url(../blocks/header/__langs/header__langs.css);
 
 /* Блок lead */
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -54,6 +53,6 @@
 /* Подвал сайта */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__list/footer__list-value.css);
+@import url(../blocks/footer/__list-value/footer__list-value.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__author/footer__author.css);

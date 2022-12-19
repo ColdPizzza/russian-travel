@@ -1,6 +1,25 @@
 .places__text-item {
-  margin: 0 0 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0 auto 26px;
 }
 .places__text-item:last-of-type {
-  margin: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1023px) {
+  .places__text-item {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .places__text-item {
+    padding: 0 16px;
+  }
+
+  .places__text-item:last-of-type {
+    margin-bottom: 0;
+  }
 }

@@ -1,0 +1,6 @@
+.header__items {
+  margin: 0 18px 6px 0;
+}
+.header__items:last-of-type {
+  margin: 0 0 6px 0;
+}

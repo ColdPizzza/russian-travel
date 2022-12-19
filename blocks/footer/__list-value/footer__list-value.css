@@ -4,7 +4,7 @@
 .footer__list-value:last-of-type {
   margin-right: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__list-value {
     margin: 0 0 32px;
   }
