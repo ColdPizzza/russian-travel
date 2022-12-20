@@ -1,17 +1,14 @@
 .lead {
   max-width: 984px;
-  /* min-height: 1005px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 48px;
-  margin-top: 84px;
-  /* Не совсем понимаю, что вы имели в виду под исправлением, т.к. расстояние было тем же 84px, но в padding */
+  padding: 56px 48px 0 48px;
 }
+
 @media screen and (max-width: 1279px) {
   .lead {
-    margin-top: 48px;
-    padding-left: 48px;
+    padding-top: 48px;
   }
 }
 
@@ -19,16 +16,5 @@
   .lead {
     padding-right: 0;
     padding-left: 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .lead {
-    /* min-height: 100px; */
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .lead {
-    margin-top: 48px;
   }
 }
